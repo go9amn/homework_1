@@ -27,13 +27,17 @@ pip install -r requirements.txt
 ```
 source .env
 ```
+### 5. Накатить миграции Alembic
+```
+alembic upgrade head
+```
 * DB__NAME: имя БД
 * DB__USER: имя юзера в БД
 * DB__PASSWORD: пароль юзера в БД
 * DB__HOST: хост БД
 * DB__PORT: порт БД
 
-### 58. Стартовать Uvicorn(Python ASGI Server) из папки проекта
+### 6. Стартовать Uvicorn(Python ASGI Server) из папки проекта
 ```
 uvicorn main:app --host <host> --port <port>
 ```
