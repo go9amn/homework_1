@@ -1,4 +1,4 @@
-# CryptoPortfolio Backend
+# Меню ресторана API
 
 ## Стек технологий
 - python3.10
